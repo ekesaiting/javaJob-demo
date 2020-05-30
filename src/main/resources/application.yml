@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+      auto-index-creation: false
+      database: mydb
+      authentication-database: mydb    #  认证数据库 ，mongodb默认为admin,新添加用户后为用户所在数据库
+      uri: mongodb://shf:123456@server:27017/mydb  # mongodb://用户名:密码@主机ip/数据库名
